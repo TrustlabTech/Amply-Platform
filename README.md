@@ -1,5 +1,7 @@
 # Amply-Trustlab
 
+<img src="https://cloud.githubusercontent.com/assets/25197053/24645519/bbfcedd0-1918-11e7-9763-a42d9d4935c5.jpg" alt="Amply Logo" width="250" height="250">
+
 Amply is for Early Childhood Development service-delivery. Amply for ECD provides verified digital registries of ECD Service Providers, ECD centres and the children who are eligible beneficiaries. Service delivery records are captured as verifiable claims. Each service transaction generates a digital cryptographic token that can be exchanged for value, such as a government subsidy or social impact bond payment. The personal data collected through this service delivery are managed using the Consent Protocol, which enables consented sharing of personal information between trusted identities
 
 ## Purpose
