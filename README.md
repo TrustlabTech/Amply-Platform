@@ -125,7 +125,8 @@ We are also contributing as the only Africa-based Founding Steward to hosting an
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Copyright (c) 2017 Trustlab Pty Ltd, under licence from Global Consent Limited
+See our [License](https://github.com/TrustlabTech/Amply-Platform/blob/master/LICENSE.md).
 
 ## Acknowledgments
 
