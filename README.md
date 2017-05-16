@@ -19,12 +19,13 @@ Not all of the below is yet fully implemented.
 
 * [ecd-rn](https://github.com/TrustlabTech/ecd-rn/blob/master/README.md)
 * Always up-to-date [React Native](https://facebook.github.io/react-native/) 
-* Mobile application working without Blockchain component.
-* :warning: Cryptography
-* :warning:	Verifiable Claim
+* Mobile application working with Blockchain component.
+* Cryptography
+* Verifiable Claim
+* Hash + Signature
 * :warning:	Populate Template from bot
 * :warning: Add meta data
-* :warning: Hash + Signature
+
 
 ### ecd-platform (PHP laverval) / front-end development 
 
@@ -32,20 +33,22 @@ Not all of the below is yet fully implemented.
 * always up-to-date [PHP laverval](https://laravel.com/docs/5.4)
 * CRUD data from database
 
-### Service Assurance Bot 
-
-* Fetch Verifiable Claims
-* Process Verifiable Claims
-* Sign & Hash Verifiable Claims
-* Fetch Verification Data: Verified Registry Database,Interact with Attendance Smart Contract,Verify Verifiable Claims         Metadata
-* Service Verification Algorithm
-
 ### Ethereum Smart Contract
 
 * Always up-to-date [Solidity](https://solidity.readthedocs.io/en/develop/)
-* :warning: Smart contract - Cryptographic currency(AMPS)
-* :warning: Smart contract - Attendance
+* Smart contract - Attendance
+* Smart contract - EIS
+* :star: Smart contract - Multisig
+* :star: Smart contract - Cryptographic currency(AMPS)
 * :star: Dashboard for smart contracts
+
+### Service Verification Bot 
+
+* :warning: Fetch Verifiable Claims
+* :warning: Process Verifiable Claims
+* :warning: Sign & Hash Verifiable Claims
+* :warning: Fetch Verification Data: Verified Registry Database,Interact with Attendance Smart Contract,Verify Verifiable  Claims Metadata
+* :warning: Service Verification Algorithm
 
 ## modules
 
@@ -80,7 +83,7 @@ Once all the required checks have been passed, the Service Verification Bot digi
 
 Initially the Service Verification Bot will be executed within a cloud-based software container. In future we anticipate that Service Verification Bot will execute within a trusted execution environment (e.g. Intel SGX), where the cryptographic keys belonging to the Service Verification Bot would be stored within a protected hardware enclave within the microchip that is executing the code. We are collaborating with Microsoft Azure to test this new functionality as it becomes available.
 
-During Q2 2017 we will be defining the technical specifications for the data inputs and outputs of the Service Verification Bot and developing prototype code to execute a proof of concept of the oracle mechanism. During Q3Q4 2017 we expect to integrate the Service Verification Bot into the Decentralised Exchange mechanism and to demonstrate exchange transactions taking place automatically.
+During Q2 2017 we will be defining the technical specifications for the data inputs and outputs of the Service Verification Bot and developing prototype code to execute a proof of concept of the oracle mechanism. During Q3,Q4 2017 we expect to integrate the Service Verification Bot into the Decentralised Exchange mechanism and to demonstrate exchange transactions taking place automatically.
 
 ## Decentralised AMPs Exchange Module
 
@@ -108,25 +111,27 @@ The Amply Mobile application will be further developed during Q2 2017 to enable 
 
 We are also contributing as the only Africa-based Founding Steward to hosting and testing the Sovrin Blockchain, which is an extremely promising open-source Blockchain development that is specifically designed for digital identity. Participating in the Sovrin network is essential for our roadmap to achieve future interoperability. During Q3 2017 we will set up a live test sandbox node of Sovrin and during Q3 / Q4 2017 develop experimental Sovrin agent applications for ECD use cases. This will inform how we go forward on the future roadmap.
 
-
 ### Roadmap
 
-* **TODO** :star: Service Assurance Bot
-* **TODO** :star: Smart contracts Cryptographic currency(AMPS)
-* **TODO** :star: Smart contracts Attendance
+* **TODO** :star: Smart contract Cryptographic currency(AMPS)
+* **TODO** :star: Whitepaper 
+* **TODO** :star: Sovrin Blockchain Identity
+* **TODO** :star: Token sale
  
-
 ## Built With
 
 * [React Native](https://facebook.github.io/react-native/) - mobile application development
-* [PHP laravel](https://laravel.com/) - API 
-* [MySQL](https://www.mysql.com/) - database management for mobile application
+* [PHP laravel](https://laravel.com/) - API v1
+* [Node.js](https://nodejs.org/en/) - API v2
+* [MySQL](https://www.mysql.com/) - database management for mobile application(API v1)
+* [NoSQL Mongo DB](https://docs.mongodb.com/) - database management for mobile application(API v2)
 * [Solidity](https://solidity.readthedocs.io/en/develop/) - smart contracts
 
 ## License
 
 Copyright (c) 2017 Trustlab Pty Ltd, under licence from Global Consent Limited
 See our [License](https://github.com/TrustlabTech/Amply-Platform/blob/master/LICENSE.md).
+
 
 ## Acknowledgments
 
