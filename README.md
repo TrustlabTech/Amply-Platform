@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/TrustlabTech/Amply-Platform.png?label=ready&title=Ready)](https://waffle.io/TrustlabTech/Amply-Platform?utm_source=badge)
 # Amply-Trustlab
 
 <img src="https://cloud.githubusercontent.com/assets/25197053/24645519/bbfcedd0-1918-11e7-9763-a42d9d4935c5.jpg" alt="Amply Logo" width="150" height="150">
